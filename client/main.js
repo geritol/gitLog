@@ -32,7 +32,7 @@ Template.main.events({
            
             function finish(){
                 btn.button('reset');
-                $('#res').prepend("`Last update: " + until + "` created with: [gitLog](http://gitlog.meteor.com).");
+                $('#res').prepend("Last update: `" + until + "` created with: [gitLog](http://gitlog.meteor.com)");
                 var count = $("#res li").length;
                 $('#commitNum b').prepend(count);
                 var container = $('html, body'),
