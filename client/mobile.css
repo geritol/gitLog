@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+
+    h1 {
+        margin-top: 15px !important;
+    }
+    .controlls{
+        margin-top: 10px !important;
+    }
+    
+    p.crafted{
+        margin-top: -43px;
+    }
+    
+    #toDate{
+    margin-bottom: 43px;
+    }
+}

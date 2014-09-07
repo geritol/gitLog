@@ -1,0 +1,35 @@
+<template name="main">
+    
+<form role="form">
+<div class="url-top"></div>
+<div class="row">
+<div id="err" class="alert alert-danger" role="alert">Not a valid github url!</div>
+<div class="col-md-12">
+<div class="col-md-10"><input type="text" class="form-control" id="url" placeholder="Enter repo url"></div>
+<div class="col-md-2"><button id="go" type="submit" class="btn btn-primary" >Submit</button></div>
+</div>
+    
+<div class="controlls">
+<div class="col-md-3"><p class="more" align="left"><a><span class="glyphicon glyphicon-chevron-{{nyil1}}"></span>More options<span class="glyphicon glyphicon-chevron-{{nyil}}"></span></a></p></div>
+<div id="more" class="col-md-6">
+<div class="col-md-5"><input id="fromDate" type="text" class="form-control other" placeholder="Start date"></div>
+<div class="col-md-7"><input id="toDate" type="text" class="form-control other" placeholder="End date (def.: today)"></div>
+    
+    </div>
+</div>
+
+
+<p class="crafted" align="right">crafted by: <a href="https://github.com/geritol">GeriTol</a></p>
+    
+</div>
+
+</form>
+    
+<div id="result">
+<div id="commitNum">Total commits displayed: <b></b></div>
+<ul id="res" class="list-unstyled">
+
+</ul>
+</div>
+    
+</template>

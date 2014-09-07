@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "npm": {},
+    "bootstrap-3": {},
+    "kadira": {},
+    "moment": {},
+    "bootstrap3-datepicker": {}
+  }
+}
